@@ -70,6 +70,10 @@
     color: #717FA6;
 }
 
+.grid .card .card-content :last-child a:hover {
+    text-decoration: none;
+}
+
 .grid .card .btn-group {
     display: flex;
     flex-direction: column;
@@ -97,4 +101,14 @@
     background-color: inherit;
     border: none;
     cursor: pointer;
+    color: #717FA6
+}
+
+.grid .card .btn-group :first-child:hover {
+    background-color: #766CF1
+}
+
+.grid .card .btn-group :last-child:hover {
+    background-color: inherit;
+    color: black;
 }
