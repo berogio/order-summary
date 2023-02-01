@@ -1,0 +1,100 @@
+.grid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    background-image: url(./assets/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+    background-color: #F2F2F2;
+}
+
+.grid .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 450px;
+    height: 700px;
+    border-radius: 20px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 40px 40px -20px #0D30BD27;
+}
+
+.grid .card .card-cover {
+    width: 100%;
+    height: 220px;
+}
+
+.grid .card .card-cover :first-child {
+    border-radius: 20px 20px 0px 0px;
+}
+
+.grid .card .card-body {
+    width: 80%;
+    height: 80px;
+}
+
+.grid .card .card-content {
+    background-color: #F7F9FF;
+    width: 80%;
+    border-radius: 10px;
+    height: 95px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around
+}
+
+.grid .card .card-content .musik-icon {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    background-color: #DFE6FB;
+    background-image: url(./assets/icon-music.svg);
+}
+
+.grid .card .card-content .price {
+    display: flex;
+    flex-direction: column;
+}
+
+.grid .card .card-content :first-child {
+    font-weight: 600;
+    line-height: 25px;
+}
+
+.grid .card .card-content :last-child {
+    color: #717FA6;
+}
+
+.grid .card .btn-group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+    width: 80%;
+    padding-bottom: 30px;
+}
+
+.grid .card .btn-group :first-child {
+    width: 100%;
+    height: 50px;
+    border-radius: 11px;
+    background-color: #382AE1;
+    font-weight: 800;
+    color: wheat;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0px 20px 20px 0px #382AE131;
+}
+
+.grid .card .btn-group :last-child {
+    font-weight: 800;
+    background-color: inherit;
+    border: none;
+    cursor: pointer;
+}
