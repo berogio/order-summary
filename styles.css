@@ -61,7 +61,7 @@
     height: 50px;
     border-radius: 100%;
     background-color: #DFE6FB;
-    background-image: url(./assets/icon-music.svg);
+    background-image: url(./assets/images/icon-music.svg);
 }
 
 .grid .card .card-content .price {
