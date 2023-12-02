@@ -16,7 +16,7 @@ Welcome to the Order Summary Card project! This web application presents an orde
 
 ## Live Demo
 
-Check out the live demo of the Order Summary Card [here](LINK_TO_YOUR_LIVE_DEMO).
+Check out the live demo of the Order Summary Card [here](https://berogio.github.io/order-summary/).
 
 ## Getting Started
 
